@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostBinding } from '@angular/core';
 
 @Component({
   selector: 'app-plate',
-  templateUrl: './plate.component.html',
-  styleUrls: ['./plate.component.scss']
+  templateUrl: './plate.component.html'
 })
 export class PlateComponent implements OnInit {
+  @HostBinding('class.plate-wrapper') bool = true;
 
   constructor() { }
 

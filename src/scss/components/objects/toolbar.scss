@@ -1,0 +1,16 @@
+.toolbar-wrapper {
+  background-color: blue;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 65px;
+  display: flex;
+}
+
+.toolbar-button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

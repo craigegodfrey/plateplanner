@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostBinding } from '@angular/core';
 
 @Component({
   selector: 'app-settings',
-  templateUrl: './settings.component.html',
-  styleUrls: ['./settings.component.scss']
+  templateUrl: './settings.component.html'
 })
 export class SettingsComponent implements OnInit {
+  @HostBinding('class.settings-wrapper') bool = true;
 
   constructor() { }
 
