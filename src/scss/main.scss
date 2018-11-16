@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+// Components (forms)
+@import 'components/forms/add-meal.scss';
+@import 'components/forms/edit-meal.scss';
+@import 'components/forms/settings.scss';
+
+// Components (objects)
+@import 'components/objects/menu.scss';
+@import 'components/objects/plate.scss';
+@import 'components/objects/titlebar.scss';
+@import 'components/objects/toolbar.scss';
+
+// Components (pages)
+@import 'components/pages/main-page.scss';
